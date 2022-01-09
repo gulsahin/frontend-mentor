@@ -1,0 +1,122 @@
+:root{
+    --Very-Dark-Magenta: hsl(300, 43%, 22%);
+    --Soft-Pink: hsl(333, 80%, 67%);
+
+    --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+    --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+    --White: hsl(0, 0%, 100%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+
+}
+body{
+    font-family: 'Spartan';
+    width: 100%;
+    height: 100vh;
+}
+.container{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.main{
+    width: 100%;
+    margin: 9%;
+}
+.top-contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+.left-content{
+    width: 30%;
+    justify-content: start;
+}
+.left-content h1{
+    color: var(--Very-Dark-Magenta);
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+}
+.left-content p{
+    color: var(--Very-Dark-Magenta);
+    font-weight: 400;
+}
+.right-content{
+    width: 40%;
+    
+}
+.rated-bar{
+    display: flex;
+    
+    width: 550px;
+    background-color: var(--Light-Grayish-Magenta);
+    color: var(--Very-Dark-Magenta);
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    padding: 18px;
+    
+
+}
+.bar3{
+    margin-left: 80px;
+}
+.bar2{
+    margin-left: 20px;
+}
+.bar1{
+    margin-left: -40px;
+}
+.bar-text{
+    padding-left: 50px;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card{
+    background-color: var(--Very-Dark-Magenta);
+    width: 500px;
+    border-radius: 10px;
+    padding: 40px;
+    color: var(--Light-Grayish-Magenta);
+}
+.profile-top{
+    display: flex;
+    align-items: center;
+    
+}
+/* .profile-top div{
+    margin-top: -10px;
+} */
+.profile-top div h3{
+    margin-bottom: 15px;
+}
+.profile-top div p{
+   color: var(--Soft-Pink);
+}
+.profile-top img{
+    border-radius: 50%;
+    margin-right: 2rem;
+    margin-bottom: 1.2rem;
+}
+.profile-bottom{
+    line-height: 1.3;
+}
+.card2{
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+.card3{
+    margin-top: 40px;
+    margin-bottom: -40px;
+}
